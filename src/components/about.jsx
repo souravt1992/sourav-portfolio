@@ -46,7 +46,7 @@ export default class About extends Component {
                                             <span className="number" data-number="7">0</span>
                                             <span> Project completed</span>
                                         </p>
-                                        <p><a href="#" className="btn btn-primary py-3 px-3">Download CV</a></p>
+                                        <p><a href="https://drive.google.com/file/d/1aPmXz4BBYXo3Gi_yszwDxHE9QAd58alV/view" className="btn btn-primary py-3 px-3">Download CV</a></p>
                                     </div>
                                 </div>
                             </div>
