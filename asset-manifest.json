@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/sourav-portfolio/static/css/main.69eda509.chunk.css",
+    "main.js": "/sourav-portfolio/static/js/main.067033e2.chunk.js",
+    "main.js.map": "/sourav-portfolio/static/js/main.067033e2.chunk.js.map",
+    "runtime-main.js": "/sourav-portfolio/static/js/runtime-main.52893d8b.js",
+    "runtime-main.js.map": "/sourav-portfolio/static/js/runtime-main.52893d8b.js.map",
+    "static/js/2.fdb1ac40.chunk.js": "/sourav-portfolio/static/js/2.fdb1ac40.chunk.js",
+    "static/js/2.fdb1ac40.chunk.js.map": "/sourav-portfolio/static/js/2.fdb1ac40.chunk.js.map",
+    "index.html": "/sourav-portfolio/index.html",
+    "precache-manifest.995d421b6068efe32f639074582924e0.js": "/sourav-portfolio/precache-manifest.995d421b6068efe32f639074582924e0.js",
+    "service-worker.js": "/sourav-portfolio/service-worker.js",
+    "static/css/main.69eda509.chunk.css.map": "/sourav-portfolio/static/css/main.69eda509.chunk.css.map",
+    "static/js/2.fdb1ac40.chunk.js.LICENSE": "/sourav-portfolio/static/js/2.fdb1ac40.chunk.js.LICENSE",
+    "static/media/partner-1.png": "/sourav-portfolio/static/media/partner-1.d5da7c4f.png",
+    "static/media/partner-2.png": "/sourav-portfolio/static/media/partner-2.2a80864d.png",
+    "static/media/partner-3.png": "/sourav-portfolio/static/media/partner-3.c6a244ae.png",
+    "static/media/partner-4.png": "/sourav-portfolio/static/media/partner-4.0001f801.png",
+    "static/media/partner-5.png": "/sourav-portfolio/static/media/partner-5.965ae31b.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.52893d8b.js",
+    "static/js/2.fdb1ac40.chunk.js",
+    "static/css/main.69eda509.chunk.css",
+    "static/js/main.067033e2.chunk.js"
+  ]
+}
