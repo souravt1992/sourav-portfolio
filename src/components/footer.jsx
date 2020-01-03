@@ -57,7 +57,7 @@ export default class Footer extends Component {
                         </div>
                     </div>
                 </div>
-                <div className="row">
+                <div>
                     <div className="col-md-12 text-center" style={{ fontSize: '20px' }}>
                         <p>Made with <i className="icon-heart" style={{ fontSize: '22px', color: 'red' }} aria-hidden="true"></i> Thanks <a href="https://colorlib.com" target="_blank">Colorlib </a> for Inspiration</p>
                     </div>
