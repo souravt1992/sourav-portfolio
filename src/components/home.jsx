@@ -15,7 +15,7 @@ export default class Header extends Component {
                                         <span
                                         className="txt-rotate"
                                         data-period="2000"
-                                        data-rotate='[ "Full Stack Developer.", "Biker.", "Photographer.", "Blogger" ]'></span>
+                                        data-rotate='[ "Full Stack Developer.", "Biker.", "Blogger" ]'></span>
                                 </h2>
                             </div>
                         </div>

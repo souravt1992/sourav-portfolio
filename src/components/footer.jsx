@@ -23,11 +23,11 @@ export default class Footer extends Component {
                             <div className="ftco-footer-widget mb-4 ml-md-4">
                                 <h2 className="ftco-heading-2">Links</h2>
                                 <ul className="list-unstyled">
-                                    <li><a href="#"><span className="icon-long-arrow-right mr-2"></span>Home</a></li>
-                                    <li><a href="#"><span className="icon-long-arrow-right mr-2"></span>About</a></li>
-                                    <li><a href="#"><span className="icon-long-arrow-right mr-2"></span>Skills</a></li>
-                                    <li><a href="#"><span className="icon-long-arrow-right mr-2"></span>Projects</a></li>
-                                    <li><a href="#"><span className="icon-long-arrow-right mr-2"></span>Contact</a></li>
+                                    <li><a href="#home-section"><span className="icon-long-arrow-right mr-2"></span>Home</a></li>
+                                    <li><a href="#about-section"><span className="icon-long-arrow-right mr-2"></span>About</a></li>
+                                    <li><a href="#services-section"><span className="icon-long-arrow-right mr-2"></span>Skills</a></li>
+                                    <li><a href="#projects-section"><span className="icon-long-arrow-right mr-2"></span>Projects</a></li>
+                                    <li><a href="#contact-section"><span className="icon-long-arrow-right mr-2"></span>Contact</a></li>
                                 </ul>
                             </div>
                         </div>

@@ -28,7 +28,7 @@ export default class Header extends Component {
                                     <i className="flaticon-flasks"></i>
                                 </span>
                                 <div className="desc">
-                                    <h3 className="mb-5">Phtography</h3>
+                                    <h3 className="mb-5">Front End Developer</h3>
                                 </div>
                             </a>
                         </div>
