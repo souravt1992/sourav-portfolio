@@ -14,28 +14,28 @@ export default class Blog extends Component {
               <div className="row d-flex">
                 <div className="col-md-4 d-flex ftco-animate">
                     <div className="blog-entry justify-content-end">
-                    <a href="single.html" className="block-20" style={{ backgroundImage: 'url(images/image_1.jpg)'}}>
+                    <a href="#" className="block-20" style={{ backgroundImage: 'url(images/image_1.jpg)'}}>
                     </a>
                     <div className="text mt-3 float-right d-block">
-                      <h3 className="heading"><a href="single.html">Coming Soon.............................................</a></h3>
+                      <h3 className="heading"><a href="#">Coming Soon.............................................</a></h3>
                     </div>
                   </div>
                 </div>
                 <div className="col-md-4 d-flex ftco-animate">
                     <div className="blog-entry justify-content-end">
-                    <a href="single.html" className="block-20" style={{ backgroundImage: 'url(images/image_2.jpg)'}}>
+                    <a href="#" className="block-20" style={{ backgroundImage: 'url(images/image_2.jpg)'}}>
                     </a>
                     <div className="text mt-3 float-right d-block">
-                      <h3 className="heading"><a href="single.html">Coming Soon.............................................</a></h3>
+                      <h3 className="heading"><a href="#">Coming Soon.............................................</a></h3>
                     </div>
                   </div>
                 </div>
                 <div className="col-md-4 d-flex ftco-animate">
                     <div className="blog-entry">
-                    <a href="single.html" className="block-20" style={{ backgroundImage: 'url(images/image_3.jpg)'}}>
+                    <a href="#" className="block-20" style={{ backgroundImage: 'url(images/image_3.jpg)'}}>
                     </a>
                     <div className="text mt-3 float-right d-block">
-                      <h3 className="heading"><a href="single.html">Coming Soon.............................................</a></h3>
+                      <h3 className="heading"><a href="#">Coming Soon.............................................</a></h3>
                     </div>
                   </div>
                 </div>
