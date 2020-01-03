@@ -1,68 +1,70 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Project Overview
+This project is a React app to help me organize my portfolio profile and then display my projects,skills, events, and writing to the world.
 
-In the project directory, you can run:
+## Project is Up and running and if you like it and need a local copy ,follow below instructions to get it up and running in local enviornment 
+  - clone the repo using `git clone`
+  - navigate to folder `sourav-portfolio`
+  - run `npm install` to instal node modules
+  - run `npm start` to start the service on `localhost:3000`
 
-### `npm start`
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## PortFolio Live App Link : https://souravt1992.github.io/sourav-portfolio
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
 
-### `npm test`
+## Deployment process for GitHub Pages
+Note: this feature is available with react-scripts@0.2.0 and higher.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#Step 1: Add homepage to package.json
+The step below is important!
 
-### `npm run build`
+If you skip it, your app will not deploy correctly.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Open your package.json and add a homepage field for your project:
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+"homepage": "https://souravt1992.github.io/sourav-portfolio",
+or for a GitHub user page:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+"homepage": "https://souravt1992.github.io",
+or for a custom domain page:
 
-### `npm run eject`
+"homepage": "https://mywebsite.com",
+Create React App uses the homepage field to determine the root URL in the built HTML file.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+#Step 2: Install gh-pages and add deploy to scripts in package.json
+Now, whenever you run npm run build, you will see a cheat sheet with instructions on how to deploy to GitHub Pages.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To publish it at https://souravt1992.github.io/sourav-portfolio, run:
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+npm install --save gh-pages
+Alternatively you may use yarn:
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+yarn add gh-pages
+Add the following scripts in your package.json:
 
-## Learn More
+"scripts": {
++   "predeploy": "npm run build",
++   "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The predeploy script will run automatically before deploy is run.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+If you are deploying to a GitHub user page instead of a project page you'll need to make one additional modification:
 
-### Code Splitting
+Tweak your package.json scripts to push deployments to master:
+"scripts": {
+    "predeploy": "npm run build",
+-   "deploy": "gh-pages -d build",
++   "deploy": "gh-pages -b master -d build",
+#Step 3: Deploy the site by running npm run deploy
+Then run:
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+npm run deploy
 
-### Analyzing the Bundle Size
+Build will be generated in master branch for Live App :)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+#Step 4: For a project page, ensure your project’s settings use master
+Finally, make sure GitHub Pages option in your GitHub project settings is set to use the master branch
 
-### Making a Progressive Web App
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
