@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f684480755e752fada6da99632210b39",
+    "revision": "7661d98ae65917aa810a82903a559f44",
     "url": "/sourav-portfolio/index.html"
   },
   {
-    "revision": "e3c1444a0bb0f0f3a8b7",
+    "revision": "73805ff8c0031cdeda39",
     "url": "/sourav-portfolio/static/css/main.69eda509.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/sourav-portfolio/static/js/2.fdb1ac40.chunk.js.LICENSE"
   },
   {
-    "revision": "e3c1444a0bb0f0f3a8b7",
-    "url": "/sourav-portfolio/static/js/main.1b6bd319.chunk.js"
+    "revision": "73805ff8c0031cdeda39",
+    "url": "/sourav-portfolio/static/js/main.e5562358.chunk.js"
   },
   {
     "revision": "d3a4b2900f99d07cdc99",
